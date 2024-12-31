@@ -1,4 +1,3 @@
-
 # Stock Market Data Analysis and Prediction
 
 ## Description:
@@ -68,5 +67,70 @@ The primary goals of this project are:
 6.  **Combined Visualizations:**
     
     -   All time-series plots show the data for all stocks on the same graph, distinguished by different line styles and colors, making it easy to compare stocks.
+
+## Data Analysis Insights:
+
+1. **Stock closing price and moving averages:**
+
+-   Identify trends: moving averages smooth out short-term price fluctuation and help to identify underlying trends in price.
+    
+-   Potential buyer/seller signals: Crossover between shooter and longer moving averages are often used as simple trading signals. For example: if the 7-day SMA crosses the 21-day SMA, it can be seen as a bullish signal and vice versa
+    
+-   Volatility observation: the difference between the closing price and the moving average lines can give you a visual idea of the price volatility. The more erratic the price is when compared to the moving overages, the more volatility is present
+    
+
   
-## Disclaimer: This project is for practice and educational purpose only. The predictive models should not be used for actual invenstment decisions.
+
+2. **Stock Volatility:**
+
+-   Risk measurement: Volatility is a measure of price fluctuations and is often used as an indicator of risk. Higher volatility indicates that the price is more unstable and prone to larger swings.
+    
+-   Market sentiment: Periods of high volatility can be associated with uncertainty in the market.
+    
+-   Trading decisions: traders often look at volatility to decide their risk tolerance and to adjust their strategies accordingly.
+    
+
+  
+
+3. **Distribution of Volume:**
+
+	-   Typical Volume: helps identify the average or typical trading volume for a stock.
+    
+	-   Unusual Activity: Detects outliers or periods of unusually high/low trading volume which can indicate significant events in the market.
+    
+
+  
+
+4. **Correlation Matrix:**
+
+	-   Feature Relationships: Identifies how different features relate to each other.
+	    
+	-   Positive Correlation: A value close to +1 indicates that the variables tend to move in the same direction, i.e., as one variable goes up, the other tends to go up as well.
+	    
+	-   Negative Correlation: A value close to -1 indicates that the variables tend to move in opposite directions, i.e., as one goes up, the other tends to go down.
+	    
+	-   Zero Correlation: A value close to 0 indicates that there is no linear relationship between the variables.
+	    
+	-   Multicollinearity: Detects highly correlated features that could cause issues in predictive models.
+    
+
+  
+
+5. **Actual vs. Predicted Close Prices (Linear Regression):**
+
+	-   Classification model that predicts the stock closing price based on past data and linear regression.
+	    
+	-   Linear regression proved rather accurate.
+    
+
+  
+
+6. **Actual vs. Predicted Close Prices (Random Forest)**
+
+	-   Classification model that predicts the stock closing price based on past data and random forest.
+	    
+	-   Performs significantly worse than linear regression
+
+
+
+```
