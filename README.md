@@ -131,6 +131,3 @@ The primary goals of this project are:
 	    
 	-   Performs significantly worse than linear regression
 
-
-
-```
