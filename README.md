@@ -69,4 +69,4 @@ The primary goals of this project are:
     
     -   All time-series plots show the data for all stocks on the same graph, distinguished by different line styles and colors, making it easy to compare stocks.
   
-# Disclaimer: This project is for practice and educational purpose only. The predictive models should not be used for actual invenstment decisions.
+## Disclaimer: This project is for practice and educational purpose only. The predictive models should not be used for actual invenstment decisions.
