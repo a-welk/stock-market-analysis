@@ -72,22 +72,22 @@ The primary goals of this project are:
 
 1. **Stock closing price and moving averages:**
 
--   Identify trends: moving averages smooth out short-term price fluctuation and help to identify underlying trends in price.
-    
--   Potential buyer/seller signals: Crossover between shooter and longer moving averages are often used as simple trading signals. For example: if the 7-day SMA crosses the 21-day SMA, it can be seen as a bullish signal and vice versa
-    
--   Volatility observation: the difference between the closing price and the moving average lines can give you a visual idea of the price volatility. The more erratic the price is when compared to the moving overages, the more volatility is present
+	-   Identify trends: moving averages smooth out short-term price fluctuation and help to identify underlying trends in price.
+	    
+	-   Potential buyer/seller signals: Crossover between shooter and longer moving averages are often used as simple trading signals. For example: if the 7-day SMA crosses the 21-day SMA, it can be seen as a bullish signal and vice versa
+	    
+	-   Volatility observation: the difference between the closing price and the moving average lines can give you a visual idea of the price volatility. The more erratic the price is when compared to the moving overages, the more volatility is present
     
 
   
 
 2. **Stock Volatility:**
 
--   Risk measurement: Volatility is a measure of price fluctuations and is often used as an indicator of risk. Higher volatility indicates that the price is more unstable and prone to larger swings.
-    
--   Market sentiment: Periods of high volatility can be associated with uncertainty in the market.
-    
--   Trading decisions: traders often look at volatility to decide their risk tolerance and to adjust their strategies accordingly.
+	-   Risk measurement: Volatility is a measure of price fluctuations and is often used as an indicator of risk. Higher volatility indicates that the price is more unstable and prone to larger swings.
+	    
+	-   Market sentiment: Periods of high volatility can be associated with uncertainty in the market.
+	    
+	-   Trading decisions: traders often look at volatility to decide their risk tolerance and to adjust their strategies accordingly.
     
 
   
